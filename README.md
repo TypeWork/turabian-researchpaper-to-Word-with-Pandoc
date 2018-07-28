@@ -38,12 +38,12 @@ For best results, change the directory to where the file is located. When runnin
 
 To install *Turabian Formatting with Pandoc*, place the files in the following locations.
 
-The user's `bin` directory:
+User's `bin` directory (`$HOME/bin/`):
   - `pandoc-turabian-formatDoc.pl`
   - `pandoc-turabian-prepTeX.pl`
   - `pandoc-turabian.pl`.
 
-The user's `.pandoc` directory:
+Pandoc user data directory (`$HOME/~.pandoc/`):
   - `chicago-note-bibliography.csl`
   - `turabian-latex-preamble.tex`
   - `turabian-style-reference.docx`.
