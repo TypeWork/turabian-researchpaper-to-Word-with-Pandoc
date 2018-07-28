@@ -1,6 +1,6 @@
 # Turabian Formatting with Pandoc (pandoc-turabian)
 
-*Turabian Formatting with Pandoc* uses Pandoc to convert a `.tex` file (with a document class specified as `turabian-researchpaper`) into a new Microsoft Word document (`.docx`) with formatting based on the 9th edition of Kate L. Turabian’s *A Manual for Writers of Research Papers, Theses, and Dissertations: Chicago Style for Students and Researchers*.
+**Turabian Formatting with Pandoc** uses Pandoc to convert a `.tex` file (with a document class specified as `turabian-researchpaper`) into a new Microsoft Word document (`.docx`) with formatting based on the 9th edition of Kate L. Turabian’s *A Manual for Writers of Research Papers, Theses, and Dissertations: Chicago Style for Students and Researchers*.
 
 In addition to converting a specified `.tex` file into a `.docx`, these scripts also provide the following features:
   - Support for LaTeX closing double-quotations in the `.tex` file;
