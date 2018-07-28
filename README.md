@@ -43,7 +43,7 @@ User's `bin` directory (`$HOME/bin/`):
   - `pandoc-turabian-prepTeX.pl`
   - `pandoc-turabian.pl`.
 
-Pandoc user data directory (`$HOME/~.pandoc/`):
+Pandoc user data directory (`$HOME/.pandoc/`):
   - `chicago-note-bibliography.csl`
   - `turabian-latex-preamble.tex`
   - `turabian-style-reference.docx`.
