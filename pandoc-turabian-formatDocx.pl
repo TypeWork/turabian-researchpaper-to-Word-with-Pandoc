@@ -25,7 +25,7 @@
 # Command:	pandoc-turabian-formatDocx.pl [FileName] [Optional:endnotes]
 # Output:	[FileName].docx
 #
-# Version:	2018/07/27
+# Version:	2018/07/28
 # 
 
 use 5.010;
@@ -100,13 +100,14 @@ sub ModifyDocumentXml {
 
 	# If Subtitle exists, append colon to Title
 	if ( $xpc->exists('//w:pStyle[contains(@w:val, "Subtitle")]') ) {
-		my $wpTitleNodes = $dom->findnodes('//w:p/w:pPr/w:pStyle[contains(@w:val, "Title")]/../..');
-		my $wpTitleLastNode = $wpTitleNodes->get_node($wpTitleNodes->size);
-		my $wtTitleNodes = $wpTitleLastNode->findnodes('.//w:t');
-		my $wtTitleLastNode = $wtTitleNodes->get_node($wtTitleNodes->size);
-		$wtTitleLastNode->appendText(':');
+		if (my $wpTitleNodes = $dom->findnodes('//w:p/w:pPr/w:pStyle[contains(@w:val, "Title")]/../..')) {
+			my $wpTitleLastNode = $wpTitleNodes->get_node($wpTitleNodes->size);
+			my $wtTitleNodes = $wpTitleLastNode->findnodes('.//w:t');
+			my $wtTitleLastNode = $wtTitleNodes->get_node($wtTitleNodes->size);
+			$wtTitleLastNode->appendText(':');
 
-		push(@printModNotes, "    Colon appended to title on title page\n");
+			push(@printModNotes, "    Colon appended to title on title page\n");
+		}
 	}
 
 	# Modify paragraphs that start with <TitlePageInfo />
