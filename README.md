@@ -20,7 +20,7 @@ Support for endnotes, while remaining limited and under continued development, i
   - Activating endnote-related features if the `endnotes` option is passed to the [`turabian-researchpaper`](https://ctan.org/pkg/turabian-formatting) document class in the input `.tex` file;
   - Creating a "Notes" section where indicated by the `\theendnotes` command with endnotes set to "End of section";
   - If endnotes are used, footnotes are instead typeset with symbols and restart count with each page;
-  - Endnotes, preserved as footnotes, start with "<Endnote />" tags.
+  - Endnotes, preserved as footnotes, start with `<Endnote />` tags.
 
 
 ## Get Started
