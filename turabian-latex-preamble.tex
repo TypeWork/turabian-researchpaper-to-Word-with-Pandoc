@@ -1,0 +1,25 @@
+% LaTeX definitions for use with pandoc-turabian.pl
+% 
+% Version: 2018/07/27
+
+
+% Redefine and locate Bibliography and Abstract section headings
+\def\printbibliography{\section*{<StarredSection />Bibliography}}
+\renewenvironment{abstract}%
+	{\section*{<StarredSection />Abstract}}%
+	{}
+
+
+% Preserve title page information by redefining commands
+\def\course#1{\def\ptcourse{<TitlePageInfo />#1}}
+\def\submissioninfo#1{\def\ptsubmissioninfo{<TitlePageInfo />#1}}
+\def\date#1{\def\ptdate{<TitlePageInfo />#1}}
+
+
+% Typeset title page information using \maketitle
+\def\maketitle{%
+	\ptcourse\par
+	\ptsubmissioninfo\par
+	\ptdate\par
+	<EndTitlePage />\par}
+
