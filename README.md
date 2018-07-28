@@ -50,7 +50,9 @@ Pandoc user data directory (`$HOME/~.pandoc/`):
 
 The `chicago-note-bibliography.csl` file, provided in this repository, is taken directly from the [Zotero Style Repository](https://www.zotero.org/styles).
 
-[Pandoc](http://pandoc.org) must also be installed to use the `pandoc-turabian.pl` script.
+[Pandoc](http://pandoc.org) (version 2.2 or above) must be installed to use the `pandoc-turabian.pl` script.
+
+[Perl](https://www.perl.org/get.html), version 5.010 or above, is also required to run the included perl scripts.
 
 
 ## Endnote Macro (VBA Script) for Microsoft Word
