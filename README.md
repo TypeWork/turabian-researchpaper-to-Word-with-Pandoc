@@ -53,9 +53,9 @@ The `chicago-note-bibliography.csl` file, provided in this repository, is taken 
 
 ## Endnote Macro (VBA Script) for Microsoft Word
 
-With endnote support remaining limited and experimental, an additional Microsoft Word macro (VBA Script) is provided: `PandocFormatEndnote.vba`
+With endnote support remaining limited and experimental, an additional Microsoft Word macro (VBA Script) is provided: `PandocFormatEndnote.vb`
 
-To install this script, create a new macro in Microsoft Word. Once a new macro is created, copy the contents of `PandocFormatEndnote.vba` into the macro and save.
+To install this script, create a new macro in Microsoft Word. Once a new macro is created, copy the contents of `PandocFormatEndnote.vb` into the macro and save.
 
 
 ## License
