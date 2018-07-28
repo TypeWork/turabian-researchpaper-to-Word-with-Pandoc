@@ -27,7 +27,9 @@ Support for endnotes, while remaining limited and under continued development, i
 
 In the command line interface, run *Turabian Formatting with Pandoc* by calling the perl script `pandoc-turabian.pl` followed by the name of the input `.tex` file:
 
-	`pandoc-turabian.pl [InputLaTeXFile]`
+```
+pandoc-turabian.pl [InputLaTeXFile]
+```
 
 For best results, change the directory to where the file is located. When running the script, specifying the ".tex" file extension is optional.
 
