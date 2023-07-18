@@ -64,7 +64,7 @@ To install this script, create a new macro in Microsoft Word. Once a new macro i
 
 ## License
 
-Copyright (C) 2018   Omar Abdool
+Copyright (C) 2023   Omar Abdool
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
