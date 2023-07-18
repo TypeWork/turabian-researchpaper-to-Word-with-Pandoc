@@ -1,6 +1,6 @@
-# Turabian Research Paper TeX to Word with Pandoc (pandoc-turabian)
+# turabian-researchpaper to Word with Pandoc (pandoc-turabian)
 
-**Turabian Research Paper TeX to Word with Pandoc** uses Pandoc to convert a `.tex` file (with a document class specified as `turabian-researchpaper`) into a new Microsoft Word document (`.docx`) with formatting based on the 9th edition of Kate L. Turabian’s *A Manual for Writers of Research Papers, Theses, and Dissertations: Chicago Style for Students and Researchers*.
+**turabian-researchpaper to Word with Pandoc** uses Pandoc to convert a `.tex` file (with a document class specified as `turabian-researchpaper`) into a new Microsoft Word document (`.docx`) with formatting based on the 9th edition of Kate L. Turabian’s *A Manual for Writers of Research Papers, Theses, and Dissertations: Chicago Style for Students and Researchers*.
 
 In addition to converting a specified `.tex` file into a `.docx`, these scripts also provide the following features:
   - Support for LaTeX closing double-quotations in the `.tex` file;
@@ -25,7 +25,7 @@ Support for endnotes, while remaining limited and under continued development, i
 
 ## Get Started
 
-In the command line interface, run *Turabian Research Paper TeX to Word with Pandoc* by calling the perl script `pandoc-turabian.pl` followed by the name of the input `.tex` file:
+In the command line interface, run *turabian-researchpaper to Word with Pandoc* by calling the perl script `pandoc-turabian.pl` followed by the name of the input `.tex` file:
 
 ```
 pandoc-turabian.pl [InputLaTeXFile]
@@ -36,7 +36,7 @@ For best results, change the directory to where the file is located. When runnin
 
 ## Installing
 
-To install *Turabian Research Paper TeX to Word with Pandoc*, place the files in the following locations.
+To install *turabian-researchpaper to Word with Pandoc*, place the files in the following locations.
 
 User's `bin` directory (`$HOME/bin/`):
   - `pandoc-turabian-formatDoc.pl`
